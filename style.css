@@ -1,0 +1,167 @@
+<!-- This sets the background color of the entire page -- >
+body {
+    background-color: rgb(34, 31, 31);
+}
+
+<!-- These styles define the appearance of a navigation bar at the top of the page and its links -- >
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+<!-- These styles define the appearance of a navigation bar at the top of the page and its links -- >
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+<!-- These styles define the appearance of a navigation bar at the top of the page and its links -- >
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+<!-- These styles define the appearance and animations for an Explore button, including a sliding arrow animation on hover -- >
+.explore-button {
+    border-radius: 4px;
+    background-color: #f7f4f3;
+    border: none;
+    color: #333;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 190px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+<!-- These styles define the appearance and animations for an Explore button, including a sliding arrow animation on hover -- >
+.explore-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+<!-- These styles define the appearance and animations for an Explore button, including a sliding arrow animation on hover -- >
+  .explore-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+<!-- These styles define the appearance and animations for an Explore button, including a sliding arrow animation on hover -- >
+  .explore-button:hover span {
+    padding-right: 25px;
+}
+
+<!-- These styles define the appearance and animations for an Explore button, including a sliding arrow animation on hover -- >
+  .explore-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+<!-- These styles define the layout and typography for various containers and text elements on the page -- >
+.container-explore-button {
+    padding: 20px;
+}
+
+<!-- These styles define the layout and typography for various containers and text elements on the page -- >
+  .container-text h1 {
+    font-size: 40px;
+    color: #f7f4f3;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+<!-- These styles define the layout and typography for various containers and text elements on the page -- >
+  .container-text p {
+    text-align: justify;
+    font-size: 22px;
+    color: #f7f4f3;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: 'Roboto', sans-serif;
+}
+
+<!-- These styles define the appearance of panels and their descriptions -- >
+  .panel {
+    padding: 25px 18px;
+    background-color: #333;
+    margin-bottom: 25px;
+}
+
+<!-- These styles define the appearance of panels and their descriptions -- >
+  .panel-description {
+    font-size: 16px;
+    color: #f7f4f3;
+    margin-right: 90px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+  h3 {
+    font-size: 22px;
+    color: #f7f4f3;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+  label {
+    color: #eeeaea;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+  .panel input {
+    margin-bottom: 10px;
+}
+
+<!-- Styles for a form and its submit button -- >
+  .form-inline {
+    display: block;
+}
+
+<!-- Styles for a form and its submit button -- >
+  input[type=submit] {
+    border-radius: 4px;
+    background-color: rgb(247, 244, 243);
+    margin-left: 10px;
+}
+
+<!-- Styles for a reset button in a form -- >
+  .reset-description {
+    text-align: justify;
+    font-size: 22px;
+    color: #f7f4f3;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: 'Roboto', sans-serif;
+}
+
+<!-- Styles for a reset button in a form -- >
+  input[value=Reset] {
+    background-color: #313332;
+    border:hsl(from color h s l);
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+}
